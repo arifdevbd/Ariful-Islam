@@ -1,0 +1,61 @@
+/*---------------------------------
+	Projects css start 
+---------------------------------*/
+.projects-area {
+    .wrapper {
+        gap: 30px;
+    }
+}
+
+.project-box {
+    flex: 1;
+    border-radius: var(--ai-border-radius);
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+    transition: var(--ai-transition);
+
+    .project-img {
+        height: 350px;
+        overflow: hidden;
+        position: relative;
+        a {
+            display: block;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            transition: all ease-in-out 4s;
+
+            &:hover {
+                background-position: center bottom;
+            }
+            img {
+                object-fit: cover;
+            }
+        }
+        .project-cate{
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            background-color: var(--ai-secondary-color);
+            color: var(--ai-white) !important;
+            padding: 8px 10px;
+            border-radius: var(--ai-border-radius) ;
+            font-size: 14px;
+            line-height: 1;
+        }
+    }
+
+    .project-content {
+        padding: 20px 30px;
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+        a{
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,76 @@
+/*---------------------------------
+	Footer css start 
+---------------------------------*/
+
+.contact-wrapper {
+    gap: 50px;
+
+    .left {
+        width: 35%;
+        background-color: var(--ai-bg-color);
+        padding: 40px;
+        img{
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        h4{
+            margin-bottom: 10px;
+        }
+        .contact{
+            
+            .item{
+                gap: 20px;
+                margin-bottom: 10px;
+                font-weight: 600;
+                font-size: 18px;
+                i{
+                    color: var(--ai-secondary-color);
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 65%;
+        background-color: var(--ai-bg-color);
+        padding: 40px;
+
+        .contact-form {
+            label {
+                font-weight: 600;
+            }
+
+            input {
+                width: 100%;
+                height: 40px;
+                margin-bottom: 15px;
+
+                &.submit {
+                    width: auto ;
+                    background-color: var(--ai-primary-color);
+                    color: var(--ai-white) !important;
+                    padding: 15px 40px 30px;
+                    border-radius: var(--ai-border-radius);
+                    transition: var(--ai-transition);
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                    cursor: pointer;
+                    border: none;
+                    &:hover{
+                        background-color: var(--ai-secondary-color);
+                    }
+                }
+            }
+
+            textarea {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

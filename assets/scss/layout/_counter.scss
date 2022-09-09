@@ -1,0 +1,16 @@
+/*---------------------------------
+	Counter css start 
+---------------------------------*/
+.counter-area{
+    background-color: var(--ai-bg-color);
+}
+
+.counter-box{
+    flex: 1;
+    h2{
+        font-size: 42px;
+    }
+    p{
+        margin: 0;
+    }
+}

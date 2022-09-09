@@ -1,0 +1,41 @@
+/*---------------------------------
+	header css start 
+---------------------------------*/
+
+.header-area {
+    background-color: var(--ai-bg-color);
+
+    .wrapper {
+        padding: 30px 0;
+    }
+}
+
+.logo {
+    a {
+        color: var(--ai-primary-color);
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.menu-area {
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-left: 30px;
+
+                a {
+                    color: var(--ai-primary-color);
+                    transition: var(--ai-transition);
+
+                    &:hover {
+                        color: var(--ai-secondary-color);
+                    }
+                }
+            }
+        }
+    }
+}

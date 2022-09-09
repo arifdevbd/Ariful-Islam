@@ -1,0 +1,29 @@
+/*---------------------------------
+	Services css start 
+---------------------------------*/
+.services-area{
+    .wrapper{
+        gap: 30px;
+    }
+}
+.service-box{
+    padding: 40px;
+    border-radius: var(--ai-border-radius);
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+    transition: var(--ai-transition);
+    .service-icon{
+        margin-bottom: 15px;
+        img{
+            width: 80px;
+        }
+    }
+    .service-content{
+        h3{
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+    }
+    &:hover{
+        box-shadow: 0 1px 20px rgb(0 0 0 / 20%);
+    }
+}

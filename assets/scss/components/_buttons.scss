@@ -1,0 +1,20 @@
+.btn{
+    background-color: var(--ai-primary-color);
+    color: var(--ai-white) !important;
+    padding: 12px 30px;
+    border-radius: var(--ai-border-radius);
+    transition: var(--ai-transition);
+    &.dark{
+        background-color: var(--ai-primary-color);
+    }
+    &.light{
+        background-color: var(--ai-secondary-color);
+    }
+    &.dark:hover{
+        background-color: var(--ai-secondary-color);
+    }
+    &.light:hover{
+        background-color: var(--ai-primary-color);
+    }
+    
+}

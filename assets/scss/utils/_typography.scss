@@ -1,0 +1,35 @@
+/*---------------------------------
+	typography css start 
+---------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+body {
+    font-family: var(--ai-ff-body);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ai-text-color);
+    line-height: 28px;
+    overflow-X: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ai-ff-heading);
+    color: var(--ai-primary-color);
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    font-family: var(--ai-ff-p);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ai-text-color);
+    margin-bottom: 15px;
+    line-height: 26px;
+}

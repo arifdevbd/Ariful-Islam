@@ -1,0 +1,31 @@
+
+/*---------------------------------
+	variables css start 
+---------------------------------*/
+
+:root {
+    /*
+     Color Declaration 
+     */
+    --ai-white : #ffffff;
+    --ai-black : #000000;
+    --ai-primary-color : #171151;
+    --ai-secondary-color : #fe5f50;
+    --ai-text-color : #313030;
+    --ai-bg-color : #F0F1F2;
+    --ai-border-primary : #ECEEF3;
+    --ai-border-secondary : #D1D6E0;
+
+    /*
+     Font Declaration 
+     */
+     --ai-ff-body : 'Poppins', sans-serif;
+     --ai-ff-heading : 'Source Serif Pro', serif;
+     --ai-ff-p : 'Poppins', sans-serif;
+
+     --ai-transition : all .4s ease;
+
+     --ai-border-radius : 5px;
+
+};
+

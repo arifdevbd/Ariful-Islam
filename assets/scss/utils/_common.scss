@@ -1,0 +1,68 @@
+/*---------------------------------
+	common css start 
+---------------------------------*/
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+
+@media (min-width: 1300px) {
+    .container{
+        max-width: 1220px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+} 
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/* Padding & Margin */
+.pt-30{
+    padding-top: 30px;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+
+.pb-30{
+    padding-bottom: 30px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}

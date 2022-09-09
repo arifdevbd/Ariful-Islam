@@ -1,0 +1,515 @@
+@charset "UTF-8";
+/*---------------------------------
+	typography css start 
+---------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Serif+Pro:wght@400;600;700&display=swap");
+/*-----------------------------------------------------
+
+    Theme Name: Ariful Islam - Laboratory & Science Research
+    Author: Ariful Islam
+    Support: arifbd8464@gmail.com
+    Description: Template Name  – HTML5 Portfolio Template
+    Version: 1.0
+
+-------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+    02. HEADER CSS
+    03. MEAN MENU CSS
+
+**********************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------------
+	variables css start 
+---------------------------------*/
+:root {
+  /*
+   Color Declaration 
+   */
+  --ai-white: #ffffff;
+  --ai-black: #000000;
+  --ai-primary-color: #171151;
+  --ai-secondary-color: #fe5f50;
+  --ai-text-color: #313030;
+  --ai-bg-color: #F0F1F2;
+  --ai-border-primary: #ECEEF3;
+  --ai-border-secondary: #D1D6E0;
+  /*
+   Font Declaration 
+   */
+  --ai-ff-body: "Poppins", sans-serif;
+  --ai-ff-heading: "Source Serif Pro", serif;
+  --ai-ff-p: "Poppins", sans-serif;
+  --ai-transition: all .4s ease;
+  --ai-border-radius: 5px;
+}
+
+body {
+  font-family: var(--ai-ff-body);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ai-text-color);
+  line-height: 28px;
+  overflow-X: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ai-ff-heading);
+  color: var(--ai-primary-color);
+  margin-top: 0px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  font-family: var(--ai-ff-p);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ai-text-color);
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+/*---------------------------------
+	common css start 
+---------------------------------*/
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1220px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Padding & Margin */
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.btn {
+  background-color: var(--ai-primary-color);
+  color: var(--ai-white) !important;
+  padding: 12px 30px;
+  border-radius: var(--ai-border-radius);
+  transition: var(--ai-transition);
+}
+.btn.dark {
+  background-color: var(--ai-primary-color);
+}
+.btn.light {
+  background-color: var(--ai-secondary-color);
+}
+.btn.dark:hover {
+  background-color: var(--ai-secondary-color);
+}
+.btn.light:hover {
+  background-color: var(--ai-primary-color);
+}
+
+/*---------------------------------
+	common section css start 
+---------------------------------*/
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: var(--ai-ff-heading);
+  font-style: italic;
+  color: var(--ai-secondary-color);
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+/*---------------------------------
+	header css start 
+---------------------------------*/
+.header-area {
+  background-color: var(--ai-bg-color);
+}
+.header-area .wrapper {
+  padding: 30px 0;
+}
+
+.logo a {
+  color: var(--ai-primary-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.menu-area nav ul {
+  list-style: none;
+  display: flex;
+}
+.menu-area nav ul li {
+  margin-left: 30px;
+}
+.menu-area nav ul li a {
+  color: var(--ai-primary-color);
+  transition: var(--ai-transition);
+}
+.menu-area nav ul li a:hover {
+  color: var(--ai-secondary-color);
+}
+
+/*---------------------------------
+	hero css start 
+---------------------------------*/
+.hero-area {
+  background-color: var(--ai-bg-color);
+}
+
+.hero-content {
+  width: 55%;
+  margin-right: 80px;
+}
+.hero-content h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.hero-content h4 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hero-content .buttons a {
+  margin-right: 20px;
+}
+
+.hero-img {
+  width: 450px;
+  height: 450px;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 10px solid var(--ai-border-primary);
+}
+
+/*---------------------------------
+	about css start 
+---------------------------------*/
+.about-area .wrapper {
+  gap: 50px;
+}
+.about-area .wrapper > div {
+  flex: 1;
+}
+
+/*---------------------------------
+	Services css start 
+---------------------------------*/
+.services-area .wrapper {
+  gap: 30px;
+}
+
+.service-box {
+  padding: 40px;
+  border-radius: var(--ai-border-radius);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: var(--ai-transition);
+}
+.service-box .service-icon {
+  margin-bottom: 15px;
+}
+.service-box .service-icon img {
+  width: 80px;
+}
+.service-box .service-content h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.service-box:hover {
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------------------
+	Projects css start 
+---------------------------------*/
+.projects-area .wrapper {
+  gap: 30px;
+}
+
+.project-box {
+  flex: 1;
+  border-radius: var(--ai-border-radius);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: var(--ai-transition);
+}
+.project-box .project-img {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+.project-box .project-img a {
+  display: block;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  transition: all ease-in-out 4s;
+}
+.project-box .project-img a:hover {
+  background-position: center bottom;
+}
+.project-box .project-img a img {
+  object-fit: cover;
+}
+.project-box .project-img .project-cate {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: var(--ai-secondary-color);
+  color: var(--ai-white) !important;
+  padding: 8px 10px;
+  border-radius: var(--ai-border-radius);
+  font-size: 14px;
+  line-height: 1;
+}
+.project-box .project-content {
+  padding: 20px 30px;
+}
+.project-box .project-content h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.project-box .project-content a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/*---------------------------------
+	Testimonial css start 
+---------------------------------*/
+.testimonail-area .wrapper {
+  gap: 30px;
+}
+
+.testimonail-box {
+  flex: 1;
+  padding: 40px;
+  border-radius: var(--ai-border-radius);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: var(--ai-transition);
+}
+.testimonail-box .testimonail-quote {
+  margin-bottom: 15px;
+}
+.testimonail-box .testimonail-quote img {
+  width: 32px;
+}
+.testimonail-box .testimonail-content {
+  margin-bottom: 20px;
+}
+.testimonail-box .testimonial-author .author-img {
+  margin-right: 15px;
+}
+.testimonail-box .testimonial-author .author-img img {
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonail-box .testimonial-author .author-content h4 {
+  font-size: 17px;
+}
+.testimonail-box .testimonial-author .author-content span {
+  font-size: 14px;
+  color: var(--ai-secondary-color);
+  font-style: italic;
+}
+
+/*---------------------------------
+	Counter css start 
+---------------------------------*/
+.counter-area {
+  background-color: var(--ai-bg-color);
+}
+
+.counter-box {
+  flex: 1;
+}
+.counter-box h2 {
+  font-size: 42px;
+}
+.counter-box p {
+  margin: 0;
+}
+
+/*---------------------------------
+	Cta css start 
+---------------------------------*/
+.cta-box {
+  max-width: 600px;
+}
+.cta-box p {
+  margin-bottom: 40px;
+}
+
+/*---------------------------------
+	Footer css start 
+---------------------------------*/
+.contact-wrapper {
+  gap: 50px;
+}
+.contact-wrapper .left {
+  width: 35%;
+  background-color: var(--ai-bg-color);
+  padding: 40px;
+}
+.contact-wrapper .left img {
+  margin-bottom: 15px;
+}
+.contact-wrapper .left h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.contact-wrapper .left h4 {
+  margin-bottom: 10px;
+}
+.contact-wrapper .left .contact .item {
+  gap: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.contact-wrapper .left .contact .item i {
+  color: var(--ai-secondary-color);
+  font-size: 20px;
+}
+.contact-wrapper .right {
+  width: 65%;
+  background-color: var(--ai-bg-color);
+  padding: 40px;
+}
+.contact-wrapper .right .contact-form label {
+  font-weight: 600;
+}
+.contact-wrapper .right .contact-form input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.contact-wrapper .right .contact-form input.submit {
+  width: auto;
+  background-color: var(--ai-primary-color);
+  color: var(--ai-white) !important;
+  padding: 15px 40px 30px;
+  border-radius: var(--ai-border-radius);
+  transition: var(--ai-transition);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  cursor: pointer;
+  border: none;
+}
+.contact-wrapper .right .contact-form input.submit:hover {
+  background-color: var(--ai-secondary-color);
+}
+.contact-wrapper .right .contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*---------------------------------
+	Footer css start 
+---------------------------------*/
+.footer-area {
+  background-color: var(--ai-bg-color);
+}
+
+.footer-content {
+  max-width: 600px;
+}
+.footer-content .social {
+  list-style: none;
+  margin: 20px 0;
+}
+.footer-content .social li {
+  margin: 0 10px;
+}
+.footer-content p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

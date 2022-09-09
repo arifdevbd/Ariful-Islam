@@ -1,0 +1,21 @@
+/*---------------------------------
+	Footer css start 
+---------------------------------*/
+
+.footer-area{
+    background-color: var(--ai-bg-color);
+}
+
+.footer-content{
+    max-width: 600px;
+    .social{
+        list-style: none;
+        margin: 20px 0;
+        li{
+            margin: 0 10px;
+        }
+    }
+    p{
+        margin: 0;
+    }
+}
